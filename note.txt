@@ -1,0 +1,8 @@
+环境变量
+webdriver.chrome.driver
+chromedriver.exe所在的路径
+
+启动chrome
+>>> import os
+>>> from selenium import webdriver
+>>> driver=webdriver.Chrome()
